@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    if(!isset($_SESSION["id_user"])){
+        header("refresh")
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +15,6 @@
     <link rel="icon" type="image/png" href="../src/icons\diseno-de-logo-global-service-express.webp">
 </head>
 <body>
-    <a href = "#"> exit
+    <a href = "../index.html"> exit
 </body>
 </html>

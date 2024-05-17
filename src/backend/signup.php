@@ -20,8 +20,9 @@
 
         if ($ans){
             echo "User has been created successfully";
+            header("refresh:3;url:..\home.php");
         }else{
-            echo "Error: " . pg_last_error();
+            echo "Error: ".pg_last_error();
         }
    
         }
