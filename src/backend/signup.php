@@ -12,7 +12,7 @@
     
         if ($total > 0){
             echo "<script>alert('Email already exists')</script>";
-            header("refresh:0;url=../signup.html");
+            header("refresh:0;url=../signup.php");
         }else{
             $sql = " INSERT INTO users (fullname, email, password) VALUES ('$fullname', '$email','$enc_pass')";
     

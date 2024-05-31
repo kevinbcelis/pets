@@ -23,7 +23,7 @@
         <input type="email" name="email" required placeholder="@">
         <input type="password" name="passwd" required placeholder="*****">
         <button>Login</button>
-        <a href="signup.html"> create an account</a>
+        <a href="signup.php"> create an account</a>
     </form>
 </body>
 

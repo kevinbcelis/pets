@@ -16,5 +16,5 @@
 </head>
 <body>
     <a href = "../index.html"> exit
-</body>
+</body> 
 </html>

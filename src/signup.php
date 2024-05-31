@@ -18,10 +18,16 @@
                 <td> <input type="text" name="fname" placeholder="fullname" required></td>
             </tr>
             <tr>
+                <td> <input type="number" name="id" placeholder="1.234.456.789" required></td>
+            </tr>
+            <tr>
                 <td> <input type="email" name="email" placeholder="joe@gmail.com" required></td>
             </tr>
             <tr>
                 <td> <input type="password" name="passwd" placeholder="***********" required></td>
+            </tr>
+            <tr>
+                <td> <input type="number" name="id" placeholder="317111111" required></td>
             </tr>
             <tr>
                 <td align="center"> <button>register</button> </td>
